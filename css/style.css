@@ -1,0 +1,158 @@
+/*.......... font familiy starting ...... */
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Adamina&family=Belleza&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap");
+
+/*.......... font familiy ending ...... */
+/* .........common css starting....... */
+img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+/* .........common css ending....... */
+
+/* ........variable starting......... */
+:root {
+  --FontQuicksand: "Quicksand", sans-serif;
+  --FontBelleza: "Belleza", sans-serif;
+  --FontAdamina: "Adamina", serif;
+  --FontAbel: "Abel", sans-serif;
+  --FontLora: "Lora", serif;
+}
+/* ..........variable ending......... */
+/* ......navbar starting...... */
+.main_nav {
+  padding: 28px 0;
+  justify-content: center;
+}
+.nav_mid_options {
+  gap: 45px;
+}
+.nav_logo {
+  padding: 0;
+  margin: 0;
+  width: 123px;
+}
+.nav_mid_options li a {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--FontQuicksand);
+  padding: 0 !important;
+}
+.nav_right_options {
+  gap: 33px;
+}
+.nav_right_options li a {
+  padding: 0 !important;
+  height: 24px;
+  width: 24px;
+}
+/* ......navbar starting...... */
+/* ........banner starting.......  */
+#banner {
+  position: relative;
+}
+.banner_left h1 {
+  font-size: 86px;
+  font-weight: 400;
+  font-family: var(--FontBelleza);
+  width: 523px;
+  color: #010101;
+  margin-bottom: 52px;
+}
+.banner_left a {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  text-transform: capitalize;
+  width: 523px;
+  color: #ffffff;
+  background-color: #010101;
+  padding: 14px 41px;
+  border-radius: 38px;
+}
+.banner_left h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  width: 320px;
+  color: #000000;
+  margin-top: 78px;
+}
+.banner_left p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  color: #000000;
+  margin-top: 33px;
+  margin-bottom: 62px;
+}
+.banner_logos {
+  display: flex;
+  gap: 136px;
+}
+.banner_logos .bloom {
+  width: 144px;
+}
+.banner_logos .forbes {
+  width: 115px;
+}
+
+.banner_img {
+  width: 1232px;
+  height: 750px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* ..........banner ending............. */
+
+/* ...........learn more starting..........  */
+#learn_more {
+  padding-top: 139px;
+  padding-bottom: 153px;
+}
+.learnMore_div {
+  display: flex;
+  gap: 135px;
+}
+.learnMore_div p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--FontAbel);
+  width: 453px;
+  color: #000000;
+}
+.learnMore_div h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: var(--FontLora);
+  width: 627px;
+  color: #000000;
+}
+.learn_more_button {
+  margin-top: 66px;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+}
+.learn_more_button .text {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  color: #000000;
+}
+.learn_more_button .logo {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #000000;
+}
+/* ...........learn more ending..........  */

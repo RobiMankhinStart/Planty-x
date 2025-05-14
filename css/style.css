@@ -181,7 +181,6 @@ ol {
   color: #000000;
 }
 
-/* From Uiverse.io by satyamchaudharydev */
 button {
   padding: 0;
   margin: 0;
@@ -256,3 +255,44 @@ button svg {
 }
 
 /* ...........learn more ending..........  */
+/* ...........everything_together part starting............. */
+#everything_together {
+  position: relative;
+}
+#everything_together .bgColor {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  top: 43%;
+  bottom: 0;
+  z-index: -1;
+  background-color: #ededed;
+}
+#everything_together h2 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: var(--FontLora);
+  text-align: center;
+  margin-top: 61px;
+}
+/* ..........everything_together part ending......... */
+/* ..............best seller starting............. */
+#best_seller {
+  padding-top: 114px;
+}
+#best_seller .text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  color: #000000;
+}
+#best_seller .text h2 {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: var(--FontLora);
+  color: #000000;
+  width: 540px;
+  margin-top: 34px;
+}
+/* ..............best seller ending............. */

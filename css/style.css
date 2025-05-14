@@ -258,6 +258,7 @@ button svg {
 /* ...........everything_together part starting............. */
 #everything_together {
   position: relative;
+  padding-bottom: 50px;
 }
 #everything_together .bgColor {
   position: absolute;
@@ -294,5 +295,74 @@ button svg {
   color: #000000;
   width: 540px;
   margin-top: 34px;
+  margin-bottom: 48px;
 }
+
+.see-all-btn {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  --width: 150px;
+  --timing: 2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  width: 134px;
+  height: 42px;
+  color: #ffffff;
+
+  background: black;
+  transition: all 0.2s;
+  border-radius: 29px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-left: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.see-all-btn:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(250, 82, 82),
+    rgb(250, 82, 82) 16.65%,
+    rgb(190, 75, 219) 16.65%,
+    rgb(190, 75, 219) 33.3%,
+    rgb(76, 110, 245) 33.3%,
+    rgb(76, 110, 245) 49.95%,
+    rgb(64, 192, 87) 49.95%,
+    rgb(64, 192, 87) 66.6%,
+    rgb(250, 176, 5) 66.6%,
+    rgb(250, 176, 5) 83.25%,
+    rgb(253, 126, 20) 83.25%,
+    rgb(253, 126, 20) 100%,
+    rgb(250, 82, 82) 100%
+  );
+  animation: var(--timing) linear dance6123 infinite;
+  transform: scale(1.1) translateY(-1px);
+}
+
+@keyframes dance6123 {
+  to {
+    background-position: var(--width);
+  }
+}
+.slider_img {
+  width: 368px;
+}
+.img_p {
+  width: 368px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.img_p p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  color: #000000;
+}
+
 /* ..............best seller ending............. */

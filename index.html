@@ -11,7 +11,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <!-- css link  -->
+    <!-- .......aos.......  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- ......slick slider......  -->
+    <link rel="stylesheet" href="./css/slick.css" />
+    <!--custom css link  -->
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -99,35 +103,40 @@
     <!-- ...........learn More starting..........  -->
     <section id="learn_more">
       <div class="container">
-        <div class="col-lg-12 learnMore_div">
-          <p>
-            Each houseplant set is handled quickly and safely before being sent
-            to your destination in specially designed insulated packaging.
-          </p>
-          <h2>
-            Learn how ve take care of your plant at every stage of its journey
-            from our greenhouse to your home.
-          </h2>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="learnMore_div">
+              <p>
+                Each houseplant set is handled quickly and safely before being
+                sent to your destination in specially designed insulated
+                packaging.
+              </p>
+              <h2>
+                Learn how ve take care of your plant at every stage of its
+                journey from our greenhouse to your home.
+              </h2>
+            </div>
+            <button>
+              <p>Learn More</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                ></path>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
       ->
-      <button>
-        <p>Learn More</p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          stroke-width="4"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M14 5l7 7m0 0l-7 7m7-7H3"
-          ></path>
-        </svg>
-      </button>
     </section>
     <!-- ..........learn More ending........  -->
     <!-- .........everything_together part starting.....  -->
@@ -152,8 +161,59 @@
           <div class="col-lg-12">
             <div class="text">
               <h3>OUR SHOP</h3>
+
               <h2>Here are the best seller from our varieties</h2>
-              <a href="">See all</a>
+
+              <a href="#" class="see-all-btn">See all</a>
+            </div>
+            <div class="slider_img_div">
+              <div class="center">
+                <div>
+                  <div class="slider_img">
+                    <img src="./images/plant2.png" alt="plant2" />
+                  </div>
+                  <div class="img_p">
+                    <p>Aloe vera</p>
+                    <p>$110.99</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="slider_img">
+                    <img
+                      src="./images/unsplash_fbAnIjhrOL4.png"
+                      alt="unsplash_fbAnIjhrOL4"
+                    />
+                  </div>
+                  <div class="img_p">
+                    <p>Fiddle-leaf fig</p>
+                    <p>$110.99</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="slider_img">
+                    <img
+                      src="./images/unsplash_Ebwp2-6BG8E.png"
+                      alt="unsplash_Ebwp2"
+                    />
+                  </div>
+                  <div class="img_p">
+                    <p>Strelitzia nicolai</p>
+                    <p>$110.99</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="slider_img">
+                    <img
+                      src="./images/unsplash_fbAnIjhrOL4.png"
+                      alt="unsplash_fbAnIjhrOL4"
+                    />
+                  </div>
+                  <div class="img_p">
+                    <p>Fiddle-leaf fig</p>
+                    <p>$110.99</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -161,12 +221,24 @@
     </section>
     <!-- .........best_seller part ending.....  -->
 
-    <!-- bootstrap link  -->
+    <!-- ..............js script links start.........  -->
+    <!-- ..........jquery version link...........  -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
 
+    <!-- bootstrap link  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!--.......... slick slider link.......  -->
+    <script src="./js/slick.min.js"></script>
+    <!-- ......aos.......  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- .........script js...........  -->
+    <script src="./js/script.js"></script>
+    <!-- ..............js script links end.........  -->
   </body>
 </html>

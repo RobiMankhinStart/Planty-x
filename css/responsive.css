@@ -1,0 +1,17 @@
+/* ..........for sm device..........  */
+@media (max-width: 575.98px) {
+  /*............. hadder part starting.... */
+
+  .nav_mid_options {
+    margin-top: 35px;
+    align-items: center;
+    gap: 28px;
+  }
+  .nav_right_options {
+    gap: 32px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  /*............. hadder part starting.... */
+}

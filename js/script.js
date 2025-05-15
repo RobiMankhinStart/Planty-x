@@ -1,3 +1,6 @@
+// ..........aos....
+AOS.init();
+
 // ........slick slider.....
 $(".center").slick({
   centerMode: true,

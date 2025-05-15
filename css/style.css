@@ -369,7 +369,7 @@ button svg {
 /* ..............reviews starting............. */
 #reviews {
   padding-top: 161px;
-  padding-bottom: 54px;
+  padding-bottom: 50px;
 }
 .reviews_div {
   display: flex;
@@ -433,4 +433,143 @@ button svg {
   font-family: var(--FontAbel);
   color: #000000;
 }
+.review_img_div {
+  display: flex;
+  gap: 60px;
+  margin-top: 54px;
+}
+.review_img_div .pic_left {
+  width: 500px;
+}
+.review_img_div .pic_right {
+  width: 780px;
+}
 /* ..............reviews ending............. */
+/* ..............inspired starting............. */
+#inspired {
+  padding-bottom: 50px;
+}
+.inspired_bg {
+  background-image: url(../images/Frame36.png);
+  height: 746px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  /* overflow: hidden; */
+}
+.inspired_bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 46, 46, 0.082);
+  z-index: 1;
+}
+
+.inspired_bg .content {
+  position: relative;
+  z-index: 2;
+  padding: 72px 0 0 116px;
+}
+.inspired_bg .content h2 {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: var(--FontLora);
+  color: #000000;
+  margin-bottom: 9px;
+  width: 401px;
+}
+.inspired_bg .content p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--FontAbel);
+  color: #000000;
+  margin-bottom: 7px;
+  width: 286px;
+}
+
+/* General Button Styling */
+.custom-btn {
+  margin-left: -15px;
+  margin-top: -10px;
+  width: 200px;
+  height: 56px;
+
+  padding: 0 10px;
+  /* border: none; */
+  cursor: pointer;
+  position: relative;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+/* Text styling */
+.custom-btn .text,
+.custom-btn .clone {
+  display: flex;
+  gap: 4px;
+  color: black;
+  position: relative;
+}
+
+.custom-btn .clone {
+  position: absolute;
+  left: 16px;
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover .clone {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.custom-btn .text {
+  position: absolute;
+  left: 16px;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover .text {
+  transform: translateY(-60px);
+}
+
+/* Icon Wrapper */
+.icon-wrapper {
+  width: 24px;
+  height: 24px;
+  background: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 140px;
+  flex-shrink: 0;
+  margin-bottom: 3px;
+}
+button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: 0px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+/* Arrow SVG */
+.icon {
+  width: 14px;
+  height: 14px;
+  stroke: white;
+  transition: transform 0.3s ease;
+}
+
+.custom-btn:hover .icon {
+  transform: rotate(-90deg);
+}
+
+/* ..............inspired ending............. */

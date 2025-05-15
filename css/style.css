@@ -366,3 +366,71 @@ button svg {
 }
 
 /* ..............best seller ending............. */
+/* ..............reviews starting............. */
+#reviews {
+  padding-top: 161px;
+  padding-bottom: 54px;
+}
+.reviews_div {
+  display: flex;
+  gap: 183px;
+}
+.reviews_div .reviews_left h3 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  color: #000000;
+  margin-bottom: 23px;
+}
+.reviews_div .reviews_left .para {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--FontAbel);
+  color: #000000;
+  margin-bottom: 10px;
+}
+.reviews_div .reviews_left .star_rate {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 15px;
+}
+.reviews_div .reviews_left .star_rate .star {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: #deec3c;
+}
+.reviews_div .reviews_left .star_rate .rating {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--FontAbel);
+  color: #000000;
+}
+.reviews_div .reviews_left .review_counts {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: var(--FontAdamina);
+  color: #000000;
+}
+.reviews_div .reviews_right h2 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: var(--FontLora);
+  color: #000000;
+  width: 676px;
+  margin-bottom: 59px;
+}
+.reviews_div .reviews_right h3 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--FontLora);
+  color: #000000;
+  margin-bottom: 11px;
+}
+.reviews_div .reviews_right p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--FontAbel);
+  color: #000000;
+}
+/* ..............reviews ending............. */

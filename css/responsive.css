@@ -13,5 +13,37 @@
     justify-content: center;
     margin-top: 35px;
   }
-  /*............. hadder part starting.... */
+  /*............. hadder part endijng.... */
+  /*............. banner part starting.... */
+
+  /*............. banner part ending.... */
+  #banner {
+    position: relative;
+  }
+  .banner_img {
+    width: 245%;
+    position: absolute;
+    z-index: -1;
+    height: 112%;
+  }
+  .banner_left h1 {
+    font-size: 49px;
+    width: 332px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+  }
+  .banner_left .shop_now_button {
+    font-size: 21px;
+    width: 150px;
+    padding: 14px 20px;
+  }
+
+  .banner_left h3 {
+    font-weight: 500;
+    width: 324px;
+    margin-top: 50px;
+  }
+  .banner_logos {
+    margin-top: 82px;
+  }
 }

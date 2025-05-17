@@ -639,6 +639,9 @@ ol {
   padding: 2px 6px;
   border: none;
 }
+.input_div_Sm_BottomBorder {
+  display: none;
+}
 .offers_div .input_div .text::placeholder {
   font-size: 16px;
   font-family: 400;

@@ -30,7 +30,9 @@ $(".center").slick({
     {
       breakpoint: 991,
       settings: {
-        centerMode: false,
+        centerPadding: "150px",
+
+        centerMode: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
@@ -40,7 +42,7 @@ $(".center").slick({
       breakpoint: 1199,
       settings: {
         centerMode: true,
-        centerPadding: "40px",
+        centerPadding: "4px",
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,

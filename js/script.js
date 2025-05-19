@@ -12,7 +12,7 @@ $(".center").slick({
     {
       breakpoint: 575,
       settings: {
-        centerMode: false,
+        centerMode: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,

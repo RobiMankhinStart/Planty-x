@@ -127,7 +127,7 @@ ol {
   font-weight: 400;
   font-family: var(--FontAdamina);
   text-transform: capitalize;
-  width: 186px;
+  width: 187px;
   color: #ffffff;
   background-color: #010101;
   padding: 14px 41px;
@@ -405,7 +405,7 @@ ol {
 /* ..............best seller ending............. */
 /* ..............reviews starting............. */
 #reviews {
-  padding-top: 161px;
+  padding-top: 141px;
   padding-bottom: 50px;
 }
 .reviews_div {

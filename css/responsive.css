@@ -639,12 +639,11 @@
     padding-bottom: 37px;
   }
   .offers_div {
-    gap: 10px;
-    flex-direction: column;
+    gap: 50px;
   }
   .offers_div h2 {
     font-size: 30px;
-    width: 100%;
+    width: 500px;
   }
   .offers_div .input_div {
     margin-top: 40px;
@@ -657,7 +656,7 @@
   }
   .offers_div .input_div .input_div_BottomBorder {
     display: block;
-    width: 54%;
+    width: 100%;
     margin: 0 auto;
   }
   /*............. offers part ending.... */
@@ -672,6 +671,146 @@
   }
   .footer_div .right_socials {
     gap: 40px;
+  }
+  /*............. footer part ending.... */
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* padding: 14px 41px; */
+
+  /* .......navbar part start....  */
+
+  /* .......navbar part end....  */
+
+  /* ............ banner part starting.... */
+
+  #banner {
+    position: relative;
+  }
+  .banner_img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    height: 650px;
+  }
+
+  .banner_left .shop_now_button {
+    font-size: 20px;
+    width: 188px;
+    padding: 14px 41px;
+  }
+
+  .banner_logos {
+    margin-top: 82px;
+  }
+  /*............. banner part ending.... */
+  /*............. learn More  part starting.... */
+  #learn_more {
+    padding-top: 60px;
+    padding-bottom: 54px;
+  }
+  .learnMore_div {
+    gap: 50px;
+  }
+  .learnMore_div p {
+    font-size: 22px;
+  }
+  .learnMore_div h2 {
+    font-size: 32px;
+  }
+  .learn_more_buton {
+    margin-top: 40px;
+  }
+  /* ...........everything_together part starting............. */
+
+  /* ..........everything_together part ending......... */
+
+  /*............. learn More  part ending.... */
+  /*............. best seller part ending.... */
+
+  #best_seller {
+    padding-top: 70px;
+  }
+
+  #best_seller .text h2 {
+    font-size: 42px;
+  }
+  .slider_img {
+    width: 318px;
+  }
+  .img_p {
+    width: 90%;
+  }
+  /*............. best seller  part ending.... */
+  /*............. reviews  part starting.... */
+  #reviews {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .reviews_div {
+    gap: 133px;
+  }
+
+  .reviews_div .reviews_right h2 {
+    font-size: 32px;
+    width: 640px;
+    margin-bottom: 49px;
+  }
+  .review_img_div {
+    gap: 22px;
+    margin-top: 30px;
+  }
+  /*............. reviews part ending.... */
+  /*............. inspired part starting.... */
+  .inspired_bg .content {
+    padding: 57px 0 0 72px;
+  }
+  .inspired_bg {
+    height: 620px;
+  }
+  .inspired_bg .content h2 {
+    font-size: 48px;
+    width: 100%;
+  }
+  .inspired_bg .content p {
+    margin-bottom: 26px;
+  }
+  /*............. inspired part ending.... */
+  /*............. offers part starting.... */
+  #offers {
+    padding-bottom: 47px;
+  }
+  .offers_div {
+    gap: 180px;
+  }
+  .offers_div h2 {
+    font-size: 30px;
+    width: 670px;
+  }
+  .offers_div .input_div {
+    margin-top: 40px;
+  }
+  .offers_div .input_div .top {
+    gap: 30px;
+  }
+  .input_div_Sm_BottomBorder {
+    display: none;
+  }
+  .offers_div .input_div .input_div_BottomBorder {
+    width: 100%;
+  }
+  /*............. offers part ending.... */
+  /*............. footer part starting.... */
+  #footer {
+    padding-top: 55px;
+    padding-bottom: 50px;
+  }
+
+  .footer_div .mid_option {
+    gap: 47px;
+  }
+  .footer_div .right_socials {
+    gap: 50px;
   }
   /*............. footer part ending.... */
 }

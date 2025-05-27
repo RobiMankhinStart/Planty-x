@@ -67,7 +67,7 @@
     margin-top: 24px;
   }
   /*............. learn More  part ending.... */
-  /*............. best seller part ending.... */
+  /*............. best seller part starting.... */
 
   #best_seller {
     padding-top: 40px;
@@ -82,8 +82,15 @@
   .see-all-btn {
     margin-left: 31%;
   }
+  .slider_img {
+    width: 195px;
+  }
   .img_p {
-    width: 100%;
+    width: 180px;
+  }
+  .img_p p {
+    font-size: 14px;
+    font-weight: 400;
   }
   /*............. best seller  part ending.... */
   /*............. reviews  part starting.... */
@@ -244,7 +251,7 @@
     margin-top: 24px;
   }
   /*............. learn More  part ending.... */
-  /*............. best seller part ending.... */
+  /*............. best seller part starting.... */
 
   #best_seller {
     padding-top: 40px;
@@ -259,7 +266,6 @@
   .see-all-btn {
     margin-left: 38%;
   }
-
   .img_p {
     justify-content: start;
     gap: 140px;
@@ -677,7 +683,7 @@
 /* .............................................
 .............................................
 ..............................................
-...............xxl............................ */
+.........................xxl............................ */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   /* padding: 14px 41px; */
 
